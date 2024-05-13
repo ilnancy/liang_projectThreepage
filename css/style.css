@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header {
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    display: flex;
+    align-items: end;
+    width: 100%;
+    text-decoration: none;
+    position: sticky;
+    top: 0;
+  }
+  
+  #logocontainer {
+    width: 40%;
+    margin-right: 5%;
+    padding: 10px;
+  }
+  
+  nav {
+    width: 75%;
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    /* text-align: center; */
+    justify-content: space-around; 
+    overflow: hidden;
+  }
+
+  nav a {
+    width: 25%;
+    text-decoration: none;
+    color: #726594;
+    font-size: 20px;
+  }
+  
+  nav a:hover { 
+    font-style: normal;
+    text-decoration: none; 
+    font-family: 'Rubik Bubbles'; 
+    font-size: 35px;
+    color: #a699c6;
+  }
+
+/* BODY (general) */
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Rubik Bubbles';
+    background-color: rgb(176, 214, 165);
+  }
+
+  main {
+    color: rgb(255, 255, 255);
+ }
+
+ .description {
+    font-family: 'Rubik Bubbles';
+    font-weight: 600;
+    font-style: none;
+    font-size: 40px;
+    text-align: justify;
+    display: flex;
+    margin: 80px;
+    padding: 50px;
+ }
+
+ /* Home */
+
+ .imagecontainer {
+    position: relative;
+    width: 100%;
+    max-width: 100%; 
+    overflow: hidden;
+  }
+  
+  .corgis {
+    max-width: 100%;
+    padding: 110px;
+    height: auto;
+    display: block;
+    border: none; 
+  }
+
+ /* p {
+    font-family: 'Rubik Bubbles';
+    font-weight: 600;
+    font-style: none;
+    font-size: 40px;
+    text-align: justify;
+    display: flex;
+    margin: 80px;
+    padding: 50px;
+  } */
+ 
+
+   
+footer {
+    background-color: #ffffff;
+    color: #a2a0a0;
+    padding: 60px 60px;
+    font-size: 10px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footercontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+
+/* EVENTS */
+
+.imagecontainertwo {
+    position: relative;
+    width: 100%;
+    max-width: 100%; 
+    overflow: hidden;
+  }
+  
+  .kitten {
+    max-width: 100%;
+    padding: 120px;
+    height: auto;
+    display: block;
+    border: none; 
+  }
+
+.day-one {
+    font-family: 'Rubik Bubbles';
+    font-weight: 600;
+    font-style: none;
+    font-size: 30px;
+    text-align: justify;
+    display: flex;
+    margin: 80px;
+    padding: 50px;
+}
+
+.day-two {
+    font-family: 'Rubik Bubbles';
+    font-weight: 600;
+    font-style: none;
+    font-size: 30px;
+    text-align: justify;
+    display: flex;
+    margin: 80px;
+    padding: 50px;
+}
+
+.day-three {
+    font-family: 'Rubik Bubbles';
+    font-weight: 600;
+    font-style: none;
+    font-size: 30px;
+    text-align: justify;
+    display: flex;
+    margin: 80px;
+    padding: 50px;
+}
+
+/* SHOP */
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
