@@ -328,13 +328,10 @@ h2 {
   width: 100%;
   display: flex;
   flex-grow: 1;
-  column-gap: 50px;
+  column-gap: 20px;
   justify-content: center;
 }
 
-/* .container-items:hover {
-  transform: scale(90%);
-} */
 
 .petbowl:hover, .petnametag:hover, .petwastebag:hover {
   border-radius: 3em;
