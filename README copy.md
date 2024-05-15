@@ -12,3 +12,10 @@ Friday, May 24th: Animal Adoption & Petting Day. The first day, there will be an
 
 - Day 3: Sunday, May 26th: Bring Your Own Dog Day. The last day is you are welcome to bring your dog to the festival. Activities include race, and owner & dog costume contest. There will be charity vendors as well for you to support.
 
+## Acknowlegment
+
+https://fonts.google.com/specimen/Rubik+Bubbles?query=rub
+
+## Tech
+
+

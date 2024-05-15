@@ -4,6 +4,21 @@
     box-sizing: border-box;
   }
 
+  html {
+    font-size: 100%;
+    }
+    h1 {
+    font-size: 2em;
+    }
+    h2 {
+    font-size: 1.5em;
+    }
+    @media screen and (max-width: 800px) {
+    html {
+    font-size: 80%;
+    }
+    }
+
   header {
     background-color: rgb(255, 255, 255);
     padding: 5px;
@@ -57,12 +72,23 @@ body {
   }
 
   main {
-    color: rgb(255, 255, 255);
+    color: #726594;
  }
 
  .description {
     font-family: 'Rubik Bubbles';
-    font-weight: 600;
+    font-weight: 100;
+    font-style: none;
+    font-size: 40px;
+    text-align: justify;
+    display: flex;
+    margin: 80px;
+    padding: 50px;
+ }
+
+ .description-two {
+  font-family: 'Rubik Bubbles';
+    font-weight: 100;
     font-style: none;
     font-size: 40px;
     text-align: justify;
@@ -76,16 +102,16 @@ body {
  .imagecontainer {
     position: relative;
     width: 100%;
-    max-width: 100%; 
+    max-width: 1200%; 
     overflow: hidden;
   }
   
   .corgis {
-    max-width: 100%;
-    padding: 110px;
+    max-width: 1200%;
+    padding: 5px;
+    border-radius: 90px;
     height: auto;
     display: block;
-    border: none; 
   }
 
  /* p {
@@ -123,45 +149,143 @@ footer {
 /* EVENTS */
 
 .imagecontainertwo {
-    position: relative;
+    /* position: relative; */
+    /* width: 50%;
+    height: auto; */
+
     width: 100%;
-    max-width: 100%; 
-    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+
   }
-  
-  .kitten {
-    max-width: 100%;
+
+  .columns-image, .columns-imagetwo, .columns-imagethree {
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    column-gap: 50px;
+    justify-content: center;
+  }
+
+ 
+ .kitten {
+    /* max-width: 100%;
     padding: 120px;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;  */
+
+    width: 100%;
+    max-width: 612px;
     height: auto;
-    display: block;
-    border: none; 
+    display: flex;
+    border-radius: 90px;
   }
+
+.imagecontainerthree {
+  /* position: relative; */
+  /* width: 50%;
+  height: auto; */
+
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5%;
+
+}
+
+.cat {
+    /* max-width: 100%;
+    padding: 120px;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;  */
+
+    width: 100%;
+    max-width: 612px;
+    height: auto;
+    display: flex;
+    border-radius: 90px;
+}
+
+.imagecontainerfour {
+  /* position: relative; */
+  /* width: 50%; */
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5%;
+
+}
+
+.kitty {
+  /* max-width: 100%;
+  padding: 120px;
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; */
+
+  width: 100%;
+  max-width: 612px;
+  height: auto;
+  display: block;
+  border-radius: 90px;
+}
 
 .day-one {
     font-family: 'Rubik Bubbles';
-    font-weight: 600;
+    font-weight: 100;
     font-style: none;
     font-size: 30px;
     text-align: justify;
     display: flex;
     margin: 80px;
     padding: 50px;
+}
+.one {
+    font-family: 'Rubik Bubbles';
+    font-weight: 100;
+    font-style: none;
+    font-size: 60px;
+    text-align: justify;
+    display: flex;
+    margin: 80px;
 }
 
 .day-two {
     font-family: 'Rubik Bubbles';
-    font-weight: 600;
+    font-weight: 100;
     font-style: none;
     font-size: 30px;
     text-align: justify;
     display: flex;
     margin: 80px;
     padding: 50px;
+}
+
+.two {
+    font-family: 'Rubik Bubbles';
+    font-weight: 100;
+    font-style: none;
+    font-size: 60px;
+    text-align: justify;
+    display: flex;
+    margin: 80px;
 }
 
 .day-three {
     font-family: 'Rubik Bubbles';
-    font-weight: 600;
+    font-weight: 100;
     font-style: none;
     font-size: 30px;
     text-align: justify;
@@ -169,13 +293,87 @@ footer {
     margin: 80px;
     padding: 50px;
 }
+.three {
+    font-family: 'Rubik Bubbles';
+    font-weight: 100;
+    font-style: none;
+    font-size: 60px;
+    text-align: justify;
+    display: flex;
+    margin: 80px;
+}
 
 /* SHOP */
 
+
 h1 {
     text-align: center;
+    font-size: 2.5em;
 }
 
 h2 {
     text-align: center;
+    font-size: 1.5em;
+    
+}
+
+
+.container-items {
+  padding: 5%;
+  width: 100%;
+  height: 100vh;
+}
+
+.columns {
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  column-gap: 50px;
+  justify-content: center;
+}
+
+/* .container-items:hover {
+  transform: scale(90%);
+} */
+
+.petbowl:hover, .petnametag:hover, .petwastebag:hover {
+  border-radius: 3em;
+  height: 375px;
+  padding: 2%;
+  transform: scale(90%);
+  -webkit-transform: scale(90%);
+  -moz-transform: scale(90%);
+  -ms-transform: scale(90%);
+  -o-transform: scale(90%);
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-size: 1.3em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h6 {
+  font-size: 1.4em;
+}
+
+.dayone:hover, .daytwo:hover, .daythree:hover {
+  border-radius: 3em;
+  height: 375px;
+  transform: scale(90%);
+  -webkit-transform: scale(90%);
+  -moz-transform: scale(90%);
+  -ms-transform: scale(90%);
+  -o-transform: scale(90%);
+}
+
+.tickets {
+  font-size: 1.3em;
 }
